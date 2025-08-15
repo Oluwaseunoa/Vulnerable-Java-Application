@@ -14,9 +14,9 @@ phases:
       - ./gradlew dependencies
 
   pre_build:
-    commands:
-      - echo "Running SonarCloud preparation..."
-      - export SONAR_SCANNER_OPTS="-Dsonar.projectKey="seun-technologies1" -Dsonar.organization="Seun Technologies" -Dsonar.host.url=https://sonarcloud.io"
+  commands:
+    - echo "Running SonarCloud preparation..."
+    - export SONAR_SCANNER_OPTS='-Dsonar.projectKey=seun-technologies1 -Dsonar.organization="Seun Technologies" -Dsonar.host.url=https://sonarcloud.io'
 
   build:
     commands:
