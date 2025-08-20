@@ -1,7 +1,7 @@
 version: 0.2
 env:
     secrets-manager:
-      TOKEN: sonarcloud/codebuild-tokenn:SONAR_TOKEN
+      TOKEN: firstSecret:tokenForSonar
 phases:
   install:
     runtime-versions:
